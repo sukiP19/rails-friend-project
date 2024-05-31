@@ -27,3 +27,13 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 218)
 
 
+Started GET "/home/index" for ::1 at 2024-05-31 10:51:52 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 186)
+  Rendered layout layouts/application.html.erb (Duration: 107.5ms | Allocations: 98078)
+Completed 200 OK in 112ms (Views: 109.0ms | ActiveRecord: 0.0ms | Allocations: 102199)
+
+
