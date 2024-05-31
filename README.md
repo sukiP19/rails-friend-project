@@ -1,0 +1,2 @@
+# rails-friend-project
+learning
