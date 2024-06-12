@@ -685,3 +685,30 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 1633)
 
 
+Started GET "/" for ::1 at 2024-06-12 10:48:49 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 186)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 313)
+  Rendered layout layouts/application.html.erb (Duration: 37.8ms | Allocations: 35285)
+Completed 200 OK in 45ms (Views: 40.6ms | ActiveRecord: 0.0ms | Allocations: 39402)
+
+
+Started GET "/lomamatkat/" for ::1 at 2024-06-12 11:10:12 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/lomamatkat"):
+  
+Started GET "/akkilahdot/" for ::1 at 2024-06-12 11:10:13 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/akkilahdot"):
+  
+Started GET "/_next/static/media/chevron-down-icon.5576ec12.svg" for ::1 at 2024-06-12 11:10:19 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/_next/static/media/chevron-down-icon.5576ec12.svg"):
+  
+Started GET "/_next/static/media/chevron-up-icon.ca4cc7cd.svg" for ::1 at 2024-06-12 11:10:20 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/_next/static/media/chevron-up-icon.ca4cc7cd.svg"):
+  
